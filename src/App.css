@@ -30,13 +30,12 @@
 }
 
 @media all and (max-width: 435px) {
-  .noPhones {
-    display: none;
-  }
-}
-
-@media all and (max-width: 1000px) {
   body {
     background: none;
   }
+  
+  .noPhones {
+    display: none;
+  }
+  
 }
