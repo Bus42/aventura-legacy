@@ -1,3 +1,0 @@
-use Megrim font for headers
-Audiowide font for Title
-Gruppo for text

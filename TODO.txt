@@ -1,0 +1,6 @@
+use Megrim font for headers
+Audiowide font for Title
+Gruppo for text
+
+
+Use flip animation on the scanned images; change image source halfway through animation.
