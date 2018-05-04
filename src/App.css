@@ -28,14 +28,3 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-@media all and (max-width: 435px) {
-  body {
-    background: none;
-  }
-  
-  .noPhones {
-    display: none;
-  }
-  
-}

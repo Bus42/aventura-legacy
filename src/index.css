@@ -3,12 +3,25 @@ body {
   padding: 0;
   font-family: 'Gruppo', cursive;
   background: url('./resources/ventura_cover.jpeg');
-  background-size: 100%;
+  background-size: 100% 100vh;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Megrim', cursive;
 }
 .title {
   font-family: 'Audiowide', cursive;
+}
+
+@media all and (max-width: 435px) {
+  .noPhones {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  body {
+    background: none;
+  }
 }
