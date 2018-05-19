@@ -28,3 +28,27 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#gallery > img {
+  width: 150px;
+  margin: 10px 20px;
+}
+
+
+
+@media all and (max-height: 435px) {
+  .App-logo {
+    display: none;
+  }
+  .App-header {
+    height: 50px;
+  }
+}
