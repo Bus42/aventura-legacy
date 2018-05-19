@@ -1,3 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  
+}
+
+p {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
 .App {
   text-align: center;
 }
@@ -48,13 +61,18 @@
 
 nav {
   position: fixed;
-  top: 12px;
+  top: 0px;
   right: 12px;
 }
 
 nav > ul {
   list-style-type: none;
   display: flex;
+  flex-flow: column;
+}
+
+nav > ul > li {
+  margin: 8px 0px;
 }
 
 nav > ul > li > a {

@@ -3,13 +3,13 @@ import './App.css';
 import Header from './header';
 import Gallery from './gallery';
 import Home from './home';
-import { BrowserRouter as Route, Switch } from 'react-router-dom';
+import { Route ,Switch } from 'react-router-dom';
 
 const Main = () => (
   <main>
     <Switch>
-      <Route path='/' component={Home} />
-      <Route path='/gallery' component={Gallery} />
+      <Route exact path='/' component={Home} />
+      <Route exact path='/gallery' component={Gallery} />
     </Switch>
   </main>
 )
