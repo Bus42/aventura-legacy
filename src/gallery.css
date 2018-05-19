@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#gallery-wrapper {
+    width: 400px;
+    max-width: 100%;
+}
+
+button.image-gallery-right-nav {
+    position: fixed;
+    top: 60%;
+    right: 10px;
+}
+
+button.image-gallery-left-nav {
+    position: fixed;
+    top: 60%;
+    left: 10px;
+}
+
+button.image-gallery-play-button {
+    position: fixed;
+    top: 90%;
+    left: 10px;
+}
+
+button.image-gallery-fullscreen-button {
+    position: fixed;
+    top: 90%;
+    right: 10px;
+}
