@@ -46,7 +46,22 @@
   margin: 10px 20px;
 }
 
+nav {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+}
 
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+}
 
 @media all and (max-height: 435px) {
   .App-logo {
