@@ -1,6 +1,19 @@
-use Megrim font for headers
-Audiowide font for Title
-Gruppo for text
+[Fonts]
+	Megrim font for headers	
+	Audiowide font for Title
+	Gruppo for text
+
+[Create content for landing page]
+	Have Chris draft introduction/welcome
+	Post video - no autoplay
+
+[Add nav to header panel]
+	large screen: icon and text
+	medium screen: text
+	small screen: icon
+
+	What is Aventura Legacy?
+	Gallery
+	Contributions & Feedback
 
 
-Use flip animation on the scanned images; change image source halfway through animation.
