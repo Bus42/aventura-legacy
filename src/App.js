@@ -3,7 +3,7 @@ import './App.css';
 import Header from './header';
 import Gallery from './gallery';
 import Home from './home';
-import { Route ,Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 const Main = () => (
   <main>
@@ -21,6 +21,7 @@ class App extends Component {
       <div>
         <Header />
         <Main />
+        <footer><small>Design and code by Studio42Dev</small></footer>
       </div>
     );
   }

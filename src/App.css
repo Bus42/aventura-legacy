@@ -78,3 +78,9 @@ nav > ul > li > a {
     height: 50px;
   }
 }
+
+footer {
+  position: fixed;
+  bottom: .25em;
+  right: 1em;
+}
