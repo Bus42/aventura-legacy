@@ -35,10 +35,14 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  max-width: 80%;
+  margin: 0 10%;
 }
 
 #gallery > img {
   width: 150px;
+  max-width: 80%;
+  flex-grow: 1;
   margin: 10px 20px;
 }
 

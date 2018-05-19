@@ -28,7 +28,7 @@ import title from './resources/title_original-min.jpeg';
 let images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, battleaxe, solarsail, ship, starships, title];
 
 const imageList = images.map((image)=>
-<img className="galleryImg" src={image} alt="#"/>
+<img className="galleryImg" src={image} alt="#" key={images.indexOf(image)}/>
 );
 
 
